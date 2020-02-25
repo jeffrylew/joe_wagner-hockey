@@ -28,7 +28,7 @@
   <script src="https://kit.fontawesome.com/7906468088.js" crossorigin="anonymous"></script>
 
   <!-- Custom CSS -->
-  <!-- <link rel="stylesheet" href="css\index.css"> -->
+  <link rel="stylesheet" href="css/index.css">
 
   <!-- Hockey player favicon accompanying title -->
   <link rel="shortcut icon" href="https://img.icons8.com/color/48/000000/ice-hockey.png" type="image/x-icon">
@@ -38,7 +38,64 @@
 </head>
 <body>
 
-  
+  <!-- Navbar at top of page -->
+  <nav class="navbar navbar-expand-lg navbar-dark" id="index-top-navbar">
+    <!-- Container to center navbar contents -->
+    <div class="container">
+      <!-- Option 1: Suit man logo with brand -->
+      <a class="navbar-brand" href="index.html">J <i class="fas fa-hockey-puck"></i> e Wagner Hockey</a>
+
+      <!-- Navbar toggler/hamburger for smaller screens sizes -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="lessons.html">Lessons</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+
+        <!-- Toggler/hamburger dropdown divider between left and right side links -->
+        <div class="dropdown-divider d-block d-lg-none"></div>
+
+        <!-- Navbar right: External links (Facebook, Instagram, Twitter) -->
+        <!-- Text-only until lg screen size then logo-only for larger screens -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.facebook.com/icelandskating/" target="_blank" rel="noreferrer noopener">
+              <p class="d-inline d-lg-none">Facebook</p>
+              <i class="fab fa-facebook-square d-none d-lg-inline"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/icelandskatingcenter/" target="_blank" rel="noreferrer noopener">
+              <p class="d-inline d-lg-none">Instagram</p>
+              <i class="fab fa-instagram-square d-none d-lg-inline"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://twitter.com/icelandhamilton"  target="_blank" rel="noreferrer noopener">
+              <p class="d-inline d-lg-none">Twitter</p>
+              <i class="fab fa-twitter-square d-none d-lg-inline"></i>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
 
   <!-- JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
