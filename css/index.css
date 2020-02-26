@@ -36,7 +36,7 @@ body {
 
 .img-thumbnail {
   /* Limit height of profile picture on smaller screens */
-  max-height: 20rem;
+  max-height: 17rem;
 }
 
 .footer-contact-info {
