@@ -1,14 +1,6 @@
-html {
-  /* Background image will occupy 100% of window height */
-  height: 100%;
-}
-
 body {
-  /* Cropped face-off image */
-  background-image: url("https://i.imgur.com/dJpgHXD.png");
-
-  background-position: center;
-  background-size: cover;
+  /* Light purple */
+  background-color: #c5baca;
 
   font-family: 'Roboto Slab', sans-serif;
 }
@@ -18,9 +10,11 @@ body {
 }
 
 #about-top-navbar {
-  /* Option 1: Carnellian */
-  /* background-color: #b31b1b; */
+  /* Carnellian */
+  background-color: #b31b1b;
+}
 
-  /* Option 2: Rink blue background */
-  background-color: #32699c;  
+.footer-contact-info {
+  /* Tritanopia color palette for footer */
+  color: #007ba7;
 }
