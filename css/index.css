@@ -38,8 +38,3 @@ body {
   /* Limit height of profile picture on smaller screens */
   max-height: 17rem;
 }
-
-.footer-contact-info {
-  /* Tritanopia color palette for footer */
-  color: #007ba7;
-}
