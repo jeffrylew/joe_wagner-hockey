@@ -24,7 +24,7 @@ body {
 
 .jumbotron {
   /* Tritanopia color palette */
-  background-color: rgba(90, 75, 97, 0.9);
+  background-color: rgba(90, 75, 97, 0.85);
 
   /* White text color */
   color: white;
