@@ -1,6 +1,15 @@
+html {
+  /* Background image will occupy 100% of window height */
+  height: 100%;
+}
+
 body {
-  /* Light purple */
-  background-color: #c5baca;
+  /* Full-body Profile */
+  background-image: url("../media/joe-wagner-about.jpg");
+
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
 
   font-family: 'Roboto Slab', sans-serif;
 }
