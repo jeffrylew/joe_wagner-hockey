@@ -2,6 +2,9 @@ body {
   /* Light purple */
   background-color: #c5baca;
 
+  /* Padding so fixed-top navbar doesn't cover content */
+  padding-top: 56px;
+
   font-family: 'Roboto Slab', sans-serif;
 }
 
