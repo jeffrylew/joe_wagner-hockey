@@ -19,3 +19,7 @@ body {
   /* Carnellian */
   background-color: #b31b1b;
 }
+
+#contact-message-input {
+  resize: none;
+}
