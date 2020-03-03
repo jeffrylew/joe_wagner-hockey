@@ -19,3 +19,35 @@ body {
   /* Carnellian */
   background-color: #b31b1b;
 }
+
+.clearfix::after,
+.calendar ol::after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.calendar {
+  border-radius: 1em;
+}
+
+.calendar ol li {
+  float: left;
+  width: 14.28571%;
+}
+
+.calendar .days li {
+  border-bottom: 1px solid #eee;
+  min-height: 7rem;
+}
+
+.calendar .days li .date {
+  margin: 0.2rem 0.2rem;
+  text-align: right;
+}
+
+.event {
+  font-size: x-small;
+}
